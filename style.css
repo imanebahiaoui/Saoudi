@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2, h3 {
-    font-family: 'Baskerville Cyrillic', sans-serif;
+    font-family: fantasy;
 }
 
 p {
@@ -89,7 +89,7 @@ a:focus, a:active, a:hover,
 button:focus, button:active, button:hover,
 a b.light-color:hover {
     text-decoration: none;
-    color: #E45F74;
+    color: darkgoldenrod;
 }
 
 b {
@@ -206,6 +206,10 @@ b.light-color {
 .main-area-wrapper {
     height: calc(100% - 40px);
     padding: 20px;
+    background-image: url("wp.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-area {
